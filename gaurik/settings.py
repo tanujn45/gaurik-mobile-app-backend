@@ -78,7 +78,7 @@ WSGI_APPLICATION = 'gaurik.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'gaurik_db',
+        'NAME': 'gaurikDB',
         'USER': 'tanujnamdeo',
         'PASSWORD': '',
         'HOST': 'localhost',

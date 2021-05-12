@@ -4,9 +4,9 @@ from core.models import Category, Product
 class CategoryDTO(serializers.ModelSerializer):
     class Meta:
         model = Category
-        fields = ('title', 'subtitle')
+        fields = ('key', 'title', 'subtitle', 'slug')
 
 class ProductDTO(serializers.ModelSerializer):
     class Meta:
         model = Product
-        fields = ('title', 'subtitle', 'category')
+        fields = ('key', 'title', 'category', 'price')
